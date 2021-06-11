@@ -57,9 +57,9 @@
           -webkit-animation:fade-in 1s;
 }
 
-#title11{height:150px;width: 660px;
+#title11{height:150px;width: 680px;
 	     margin: 0 auto;
-             background-color: red;	
+             	
 
 	      animation: fade-in;  
           animation-duration: 1s;  
