@@ -57,7 +57,7 @@
           -webkit-animation:fade-in 1s;
 }
 
-#title11{height:150px;width: 850px;
+#title11{height:150px;width: 840px;
 	     margin: 0 auto;
              	
 
@@ -410,4 +410,13 @@
 
 @media screen and (max-device-width: 450px){
 	#navigation{visibility: hidden;}
+	#title11{height:150px;width: 700px;
+	         margin: 0 auto;
+             	
+
+	         animation: fade-in;  
+                 animation-duration: 1s;  
+                 -webkit-animation:fade-in 1s;
+
+}
 }
