@@ -59,6 +59,7 @@
 
 #title11{height:150px;width: 660px;
 	     margin: 0 auto;
+             background-color: red;	
 
 	      animation: fade-in;  
           animation-duration: 1s;  
