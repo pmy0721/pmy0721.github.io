@@ -300,7 +300,8 @@
 	#textshow{/*float: left;*/
 		  width:800px;height:600px;
 		  /*background-color:#111111;*/
-		  margin-top:600px;
+/* 		  margin-top:600px; */
+		  margin-top:700px;
 		  margin-left:50px;
 
 		  	  animation: fade-in;  
