@@ -268,7 +268,7 @@
 
 @media screen and (max-device-width: 450px) {
 
-	#background1{background:url(../MYimg/m_background6.jpg);
+	#background1{background:url(../MYimg/m_background7.jpg);
 	          background-size:100% 100%;
 	          height:2130px;
 
@@ -300,8 +300,8 @@
 	#textshow{/*float: left;*/
 		  width:800px;height:600px;
 		  /*background-color:#111111;*/
-/* 		  margin-top:600px; */
-		  margin-top:750px;
+		  margin-top:600px;
+/* 		  margin-top:750px; */
 		  margin-left:50px;
 
 		  	  animation: fade-in;  
