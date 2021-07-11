@@ -129,6 +129,11 @@ svg {
 <script src="https://assets.codepen.io/16327/DrawSVGPlugin3.min.js"></script>
 <script src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-e9ef9f03-442c-eba4-c8f9-4457cb603ea1" crossorigin=""></script>
 <script>
+import { gsap } from 'gsap'
+import DrawSVGPlugin from '@/plugins/DrawSVGPlugin'
+
+gsap.registerPlugin(DrawSVGPlugin)	
+	
 gsap.registerPlugin(MotionPathPlugin);
 MorphSVGPlugin.convertToPath("circle, rect");
 gsap.set("#paperPlaneRoute", { drawSVG: "0% 0%" });
