@@ -1,0 +1,29 @@
+*{margin:0;padding:0}
+
+@media screen and (min-device-width: 450px){
+#contactme_header{ background-color:#111111; 
+		         height:120px;        }
+
+#logo{ float: left;
+	   height:60px;width:120px;
+	   margin-left:30px;
+	   margin-top:30px;
+	   position: absolute;}
+
+#navigation{ height:80px;width:750px;
+	         /*background-color:#111111;*/
+	         margin:0 auto;}
+
+
+.nav-link{/*font-family: "p_one";*/
+		  font-weight:bold;
+/*		  font-size: 20px;*/
+	      text-decoration:none;
+	      color: #e6e6e6;
+	      margin: 25px;
+	      /*padding: 15px;*/
+	      line-height: 80px;
+
+}
+
+}
