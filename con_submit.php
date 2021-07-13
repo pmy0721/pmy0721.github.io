@@ -1,7 +1,7 @@
 <?php
 	header("content-type:text/html;charset=utf-8");
 	//$con = mysql_connect("IP","name","password");
-	$conn=mysqli_connect("localhost","root","123456","test1");
+	$conn=mysqli_connect("wzqvtifulbts.mysql.sae.sina.com.cn","pmy_0721","pmy19980528","pmy_0721");
 
 	if (!$conn)
   	{
