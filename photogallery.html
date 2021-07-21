@@ -151,11 +151,24 @@
 		<div id="video_column">
 			<div id="video001">
 				<video id="MYvideo001" controls poster="./MYimg/Wu Mahe_poster.jpg">
-					<source src="https://6865-hello-cloudbase-8gdmfntobb821e84-1306501200.tcb.qcloud.la/DJI.mp4?sign=04df05c2c0592533f94db6a3261cdea0&t=1626791728" type="video/mp4">
+<!-- 					<source src="https://6865-hello-cloudbase-8gdmfntobb821e84-1306501200.tcb.qcloud.la/DJI.mp4?sign=04df05c2c0592533f94db6a3261cdea0&t=1626791728" type="video/mp4"> -->
 				</video>
 			</div>
 		</div>
 
    	</div>
 </body>
+	
+<script>
+  var video = document.getElementById('MYvideo001');
+  var videoSrc = './MYvideo/DJI/playlist.m3u8';
+  if (Hls.isSupported()) {
+    var hls = new Hls();
+    hls.loadSource(videoSrc);
+    hls.attachMedia(video);
+    // hls.on(Hls.Events.MANIFEST_PARSED, function() {
+    //   video.play();
+    // });
+  }
+</script>
 </html>
