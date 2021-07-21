@@ -11,6 +11,8 @@
 		<link rel="icon" href="./MYlogo/logo_icon001.png" sizes="32x64" type="image/png">
 
 		<link rel="stylesheet" type="text/css" href="./css/cover.css">
+		
+		<script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
 
 		<style type="text/css">
 
@@ -37,9 +39,8 @@
 		</audio>
 
 		<div class="div1" id="background1">
-			<video class="covervid-video" autoplay loop muted poster="./MYimg/wallhaven-6k7jxw.jpg" style="z-index: -9999;height: 753px;position: absolute;">
+			<video class="covervid-video" autoplay loop muted poster="./MYimg/wallhaven-6k7jxw.jpg" style="z-index: -9999;height: 753px;position: absolute;width: 100%;object-fit: cover;">
 				                  
-				<source src="https://6865-hello-cloudbase-8gdmfntobb821e84-1306501200.tcb.qcloud.la/%E5%90%88%E6%88%90%201_1.mp4?sign=15f1be9758c0e7bbf2621aecaca3cb43&t=1626618515" type="video/mp4">
 
 			</video>
 			
@@ -142,6 +143,17 @@
 	</body>
 
 	<script>
+		var video = document.getElementById('covervid-video');
+		  var videoSrc = './MYvideo/dynamic/playlist.m3u8';
+		  if (Hls.isSupported()) {
+		    var hls = new Hls();
+		    hls.loadSource(videoSrc);
+		    hls.attachMedia(video);
+		    hls.on(Hls.Events.MANIFEST_PARSED, function() {
+		      video.play()
+		    });
+		  }
+		
 		    var playmusic = 0;
 		    var num_music = 1;
 			var myMusic=document.getElementById("bgm1");
