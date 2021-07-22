@@ -284,6 +284,10 @@
 	         /*visibility:hidden;*/
 }
 	
+	#covervid-video{
+    	         display: none;
+                }
+	
     #logo{ float: left;
 	   height:150px;width:300px;
 	   margin-left:30px;
@@ -355,6 +359,7 @@
 /*	#toggler{display: none;}
 	.hamburger-container{display: none;}
 	.nav-items{display: none;}*/
+	#m_covervid-video{display: none;}
 }
 
 
