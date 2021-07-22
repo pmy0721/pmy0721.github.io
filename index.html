@@ -12,7 +12,7 @@
 
 		<link rel="stylesheet" type="text/css" href="./css/cover.css">
 
-		<script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
+<!-- 		<script src="https://cdn.jsdelivr.net/npm/hls.js"></script> -->
 
 
 		<style type="text/css">
@@ -42,7 +42,7 @@
 		<div class="div1" id="background1">
 
 			<video id="covervid-video" autoplay loop muted poster="./MYimg/wallhaven-6k7jxw.jpg" style="z-index: -9999;height: 100%;position: absolute;width: 100%;object-fit: cover;">
-				                 
+				<source src="./MYvideo/dynamic_cover3/Legend-Of-Zelda.mp4" type="video/mp4">                 
 
 			</video>
 
@@ -143,16 +143,16 @@
 
 	<script>
 
-		    var video = document.getElementById('covervid-video');
-		    var videoSrc = './MYvideo/dynamic/playlist.m3u8';
-		    if (Hls.isSupported()) {
-		        var hls = new Hls();
-		        hls.loadSource(videoSrc);
-		        hls.attachMedia(video);
+		    //var video = document.getElementById('covervid-video');
+		    //var videoSrc = './MYvideo/dynamic/playlist.m3u8';
+		    //if (Hls.isSupported()) {
+		        //var hls = new Hls();
+		        //hls.loadSource(videoSrc);
+		        //hls.attachMedia(video);
 // 		        hls.on(Hls.Events.MANIFEST_PARSED, function() {
 // 		        video.play()
 // 		    });
-		 }
+		 //}
 
 		    var playmusic = 0;
 		    var num_music = 1;
