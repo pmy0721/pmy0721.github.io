@@ -268,14 +268,14 @@
 
 @media screen and (max-device-width: 450px) {
 
-/* 	#background1{background:url(../MYimg/m_background_gif1.webp);
+	#background1{background:url(../MYimg/m_background_gif1.webp);
 	          background-size:100% 100%;
 	          height:2130px;
 
 	          animation: fade-in;  
               animation-duration: 1.8s;  
               -webkit-animation:fade-in 1.8s;
-	         } */
+	         }
 
 	#navigation{ height:80px;width:710px;
 	         /*background-color:#111111;*/
