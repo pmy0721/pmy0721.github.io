@@ -13,14 +13,14 @@
     100% {opacity: 1;}  
 }
 
-/* #background1{ background:url(../MYimg/D9259DE2-D93B-4EAF-887D-7E56F47CB6B7.jpeg);
+#background1{ background:url(../MYimg/background13.jpg);
 	          background-size:100% 100%;
 	          height:753px;
 
 	          animation: fade-in;  
               animation-duration: 2s;  
               -webkit-animation:fade-in 2s;
-	         } */
+	         }
 
 
 
@@ -268,7 +268,7 @@
 
 @media screen and (max-device-width: 450px) {
 
-	#background1{background:url(../MYimg/m_background10.jpg);
+	#background1{background:url(../MYimg/m_background11.jpg);
 	          background-size:100% 100%;
 	          height:2130px;
 
