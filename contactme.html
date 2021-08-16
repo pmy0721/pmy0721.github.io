@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="./css/contactme.css">
 
 	<link rel="icon" href="./MYlogo/logo_icon001.png" sizes="32x64" type="image/png">
+	
+	<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
 	<style type="text/css">
 
@@ -36,6 +38,15 @@
 
 
     </div>
+	
+    <div id="vcomments" style="width: 800px;margin: 50px auto;"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '0PGyRjCwCeFkYGi3eAAQVSTs-gzGzoHsz',
+            appKey: 'oPNRIHRU5Jg682dpLRvkPzLn'
+        })
+    </script>
 
         
 </body>
