@@ -25,6 +25,16 @@
 	      line-height: 80px;
 
 }
+	
+	#emj_01{
+    	width: 22px;
+    	height: 22px;
+    }
+
+#emj_02{
+    	width: 22px;
+    	height: 22px;
+    }
 
 }
 
@@ -32,4 +42,31 @@
 	#contactme_header{display: none;}
 
 	#logo{display: none;}
+	
+   .vwrap{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 4;
+}
+
+	.vwrap{
+    font-size: 40px;
+    text-align: left;
+}
+
+    #emj_01{
+    	width: 50px;
+    	height: 50px;
+    }
+
+    #emj_02{
+    	width: 50px;
+    	height: 50px;
+    }
+
+    #submit_01 {
+
+    font-size: 2.2em;
+
+}
 }
