@@ -69,4 +69,19 @@
     font-size: 2.2em;
 
 }
+	
+     .vcount {
+	    padding: 5px;
+	    font-weight: 600;
+	    font-size: 3em;
+	}
+
+     #vcomments{
+		font-size: 32px;
+	}
+
+     .vtag {
+        font-size: 20px;
+
+}
 }
