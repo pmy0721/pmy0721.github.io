@@ -89,4 +89,11 @@
 	    font-size: 20px;
 	    max-height: 220px;
   }
+	
+     .v[data-class=v] .emoji, .v[data-class=v] .vemoji {
+	    max-width: 30px;
+	    vertical-align: middle;
+	    margin: 0 2px;
+	    display: inline-block;
+}
 }
