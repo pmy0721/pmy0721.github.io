@@ -660,7 +660,7 @@
 
 #down_box{/*display: none;*/
 	      height: 100px;width: 140px;
-	      margin: 450px auto 0;
+	      margin: 400px auto 0;
 	      animation: fade-in;  
           animation-duration:fade-in 6s;  
           -webkit-animation-duration:fade-in 6s;
