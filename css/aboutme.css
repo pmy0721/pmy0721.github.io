@@ -508,7 +508,101 @@
 
 #energy_box_column2_6{display: none;}
 
-#blank{display: none;}
+/* #blank{display: none;} */
+	
+#badge_box{height:100px;width:800px;
+	        margin: 80px auto 0;
+}
+
+#badge_header_box{height:100px;width:200px;
+
+}
+
+#badge_header_text{font-family: "pf_one";
+	         line-height: 100px;
+	         color: #111111;
+			 font-size: 40px;
+			 font-weight:bold;
+			 moz-user-select: -moz-none;
+			 -moz-user-select: none;
+			 -o-user-select:none;
+			 -khtml-user-select:none;
+			 -webkit-user-select:none;
+			 -ms-user-select:none;
+			 user-select:none;
+
+}
+
+#badge_column1{height:40px;width:700px;
+	          margin: 40px auto 0;
+
+	         animation: fade-in;  
+             animation-duration: 5s;  
+             -webkit-animation-duration:5s;
+}
+
+#badge001_box{height: 40px;width: 40px;
+	           display: inline-block;
+	           margin: 0 30px 0 0;
+
+}
+
+#badge001{height: 40px;width: 40px;
+
+}
+
+#badge002_box{height: 40px;width: 40px;
+	           display: inline-block;
+	           margin: 0 30px 0 0;
+}
+
+#badge002{height: 40px;width: 40px;
+
+}
+
+#badge003_box{height: 40px;width: 40px;
+	            display: inline-block;
+	            margin: 0 30px 0 0;
+}
+
+#badge003{height: 40px;width: 40px;
+
+}
+
+#badge004_box{height: 40px;width: 40px;
+	         display: inline-block;
+	         margin: 0 30px 0 0;
+}
+
+#badge004{height: 40px;width: 40px;
+
+}
+
+#badge005_box{height: 40px;width: 40px;
+	             display: inline-block;
+	             margin: 0 30px 0 0;
+}
+
+#badge005{height: 40px;width: 40px;
+
+}
+
+#badge006_box{height: 40px;width: 40px;
+	             display: inline-block;
+	             margin: 0 30px 0 0;
+}
+
+#badge006{height: 40px;width: 40px;
+
+}
+
+#badge007_box{height: 40px;width: 40px;
+	             display: inline-block;
+}
+
+#badge007{height: 40px;width: 40px;
+
+}
 
 }
 
@@ -983,6 +1077,100 @@
 #energy_box_column2_6_text{line-height: 100px;
 	                       color: #111111;
 	                       font-size: 50px;
+}
+	
+#badge_box{height:100px;width:800px;
+	        margin: 150px auto 0;
+}
+
+#badge_header_box{height:100px;width:220px;
+
+}
+
+#badge_header_text{font-family: "pf_one";
+	         line-height: 100px;
+	         color: #111111;
+			 font-size: 60px;
+			 font-weight:bold;
+			 moz-user-select: -moz-none;
+			 -moz-user-select: none;
+			 -o-user-select:none;
+			 -khtml-user-select:none;
+			 -webkit-user-select:none;
+			 -ms-user-select:none;
+			 user-select:none;
+
+}
+
+#badge_column1{height:60px;width:770px;
+	          margin: 50px auto 0;
+
+	         animation: fade-in;  
+             animation-duration: 5s;  
+             -webkit-animation-duration:5s;
+}
+
+#badge001_box{height: 60px;width: 60px;
+	           display: inline-block;
+	           margin: 0 50px 0 0;
+
+}
+
+#badge001{height: 60px;width: 60px;
+
+}
+
+#badge002_box{height: 60px;width: 60px;
+	           display: inline-block;
+	           margin: 0 50px 0 0;
+}
+
+#badge002{height: 60px;width: 60px;
+
+}
+
+#badge003_box{height: 60px;width: 60px;
+	            display: inline-block;
+	            margin: 0 50px 0 0;
+}
+
+#badge003{height: 60px;width: 60px;
+
+}
+
+#badge004_box{height: 60px;width: 60px;
+	         display: inline-block;
+	         margin: 0 50px 0 0;
+}
+
+#badge004{height: 60px;width: 60px;
+
+}
+
+#badge005_box{height: 60px;width: 60px;
+	             display: inline-block;
+	             margin: 0 50px 0 0;
+}
+
+#badge005{height: 60px;width: 60px;
+
+}
+
+#badge006_box{height: 60px;width: 60px;
+	             display: inline-block;
+	             margin: 0 50px 0 0;
+}
+
+#badge006{height: 60px;width: 60px;
+
+}
+
+#badge007_box{height: 60px;width: 60px;
+	             display: inline-block;
+}
+
+#badge007{height: 60px;width: 60px;
+
 }
 
 }
