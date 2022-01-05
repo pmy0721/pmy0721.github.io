@@ -604,6 +604,8 @@
 
 }
 
+#notes_column1{display:none;}
+
 }
 
 @media screen and (max-device-width: 450px) {
@@ -1102,7 +1104,7 @@
 
 }
 
-#badge_column1{height:60px;width:770px;
+#badge_column1{height:150px;width:770px;
 	          margin: 50px auto 0;
 
 	         animation: fade-in;  
@@ -1172,6 +1174,108 @@
 #badge007{height: 60px;width: 60px;
 
 }
+	
+#notes_column1{height:60px;width:770px;
+	          margin: 20px auto 0;
+
+	         animation: fade-in;  
+             animation-duration: 5s;  
+             -webkit-animation-duration:5s;
+}
+
+#notes001_box{height: 60px;max-width: 100px;
+	           display: inline-block;
+	           position: absolute;
+	           margin: 0 0 0 0;
+
+}
+
+#notes001_box {display: none;}
+#badge001_box:hover~ #notes_column1 > #notes001_box {display: initial;}
+
+
+
+/*#badge001{height: 60px;width: 60px;
+
+}*/
+
+#notes002_box{height: 60px;max-width: 100px;
+	           display: inline-block;
+	           position: absolute;
+	           margin: 0 0 0 100px;
+}
+
+#notes002_box {display: none;}
+#badge002_box:hover~ #notes_column1 > #notes002_box {display: initial;}
+
+/*#badge002{height: 60px;width: 60px;
+
+}*/
+
+#notes003_box{height: 60px;max-width: 100px;
+	            display: inline-block;
+	            position: absolute;
+	            margin: 0 0 0 220px;
+}
+
+#notes003_box {display: none;}
+#badge003_box:hover~ #notes_column1 > #notes003_box {display: initial;}
+
+/*#badge003{height: 60px;width: 60px;
+
+}*/
+
+#notes004_box{height: 60px;max-width: 100px;
+	         display: inline-block;
+	         position: absolute;
+	         margin: 0 0 0 350px;
+}
+
+#notes004_box {display: none;}
+#badge004_box:hover~ #notes_column1 > #notes004_box {display: initial;}
+
+/*#badge004{height: 60px;width: 60px;
+
+}*/
+
+#notes005_box{height: 60px;max-width: 100px;
+	             display: inline-block;
+	             position: absolute;
+	             margin: 0 0 0 465px;
+}
+
+#notes005_box {display: none;}
+#badge005_box:hover~ #notes_column1 > #notes005_box {display: initial;}
+
+/*#badge005{height: 60px;width: 60px;
+
+}*/
+
+#notes006_box{height: 60px;max-width: 100px;
+	             display: inline-block;
+	             position: absolute;
+	             margin: 0 0 0 590px;
+}
+
+#notes006_box {display: none;}
+#badge006_box:hover~ #notes_column1 > #notes006_box {display: initial;}
+
+/*#badge006{height: 60px;width: 60px;
+
+}*/
+
+#notes007_box{height: 60px;max-width: 100px;
+	             display: inline-block;
+	             position: absolute;
+	             margin: 0 0 0 695px;
+}
+
+#notes007_box {display: none;}
+#badge007_box:hover~ #notes_column1 > #notes007_box {display: initial;}
+
+/*#badge007{height: 60px;width: 60px;
+
+}*/
 
 }
 
