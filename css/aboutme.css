@@ -100,7 +100,7 @@
 	        margin: 0 auto;
 }
 
-#myname_text{font-family: "pf_one";
+#myname_text{/*font-family: "pf_one";*/
 	         line-height: 100px;
 	         color: #111111;
 			 font-size: 50px;
@@ -124,7 +124,7 @@
 	         margin: 0 auto 50px;
 }
 
-#mylabel_text{font-family: "pf_one";
+#mylabel_text{/*font-family: "pf_one";*/
 	         line-height: 50px;
 	         color: #111111;
 			 font-size: 20px;
@@ -634,7 +634,7 @@
 	            margin: 0 auto;
 }
 
-    #myname_text{font-family: "pf_one";
+    #myname_text{/*font-family: "pf_one";*/
 	         line-height: 200px;
 	         color: #111111;
 			 font-size: 100px;
@@ -661,7 +661,7 @@
 	             margin: 0 auto 50px;
 }
 
-	#mylabel_text{font-family: "pf_one";
+	#mylabel_text{/*font-family: "pf_one";*/
 	         line-height: 100px;
 	         color: #111111;
 			 font-size: 38px;
