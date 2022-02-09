@@ -25,6 +25,14 @@
 	      line-height: 80px;
 
 }
+	
+#pic_frame{width:400px;height:240px;
+	         
+	         margin:20px auto;
+	         background-color:#111111;
+	         background:url(../MYimg/pic_frame1_ma.jpg);
+	         background-size:100% 100%;
+	         	}
 
 #m_pic_frame{display:none;}
 	
@@ -44,6 +52,8 @@
 	#contactme_header{display: none;}
 
 	#logo{display: none;}
+	
+	#pic_frame{display:none;}
 	
 	#m_pic_frame{width:600px;height:360px;
 	         
