@@ -25,6 +25,8 @@
 	      line-height: 80px;
 
 }
+
+#m_pic_frame{display:none;}
 	
 	#emj_01{
     	width: 22px;
@@ -42,6 +44,14 @@
 	#contactme_header{display: none;}
 
 	#logo{display: none;}
+	
+	#m_pic_frame{width:500px;height:300px;
+	         
+	         	margin:20px auto;
+                        /* background-color:#111111; */
+	         	background:url(../MYimg/pic_frame1_ma.jpg);
+	                background-size:100% 100%;
+	         	}
 	
    .vwrap{
     -webkit-box-sizing: border-box;
