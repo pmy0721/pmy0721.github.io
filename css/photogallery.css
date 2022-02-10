@@ -67,6 +67,18 @@
 
 }
 
+#title12{height:150px;width: 840px;
+	     margin: 0 auto;
+
+
+	      animation: fade-in;  
+          animation-duration: 1s;  
+          -webkit-animation:fade-in 1s;
+
+          display: none;
+
+}
+
 #title_MYphoto11{display: inline-block;			  
 	          text-align: center;
 			  line-height: 150px;
@@ -365,6 +377,63 @@
 			position: absolute;
 }
 
+#column004{height: 300px;width: 990px;
+		  /*background-color:#e6e6e6;*/
+		  margin:0 auto 30px;
+
+		  animation: fade-in;  
+          animation-duration: 2s;  
+          -webkit-animation:fade-in 2s;
+}
+
+#MYphoto010:hover{transform: scale(1.1);  
+              	  transition: all 0.5s ease 0s;
+}
+
+#photo010{height: 300px;width: 300px;
+		  display: inline-block;
+		  /*background-color: red;*/
+		  margin: 0 15px;
+
+}
+
+#MYphoto010{height: 300px;width: 225px;
+			margin:0 37px;
+			position: absolute;
+}
+
+#MYphoto011:hover{transform: scale(1.1);  
+              	  transition: all 0.5s ease 0s;
+}
+
+#photo011{height: 300px;width: 300px;
+		  display: inline-block;
+		  /*background-color: yellow;*/
+		  margin: 0 10px;
+
+}
+
+#MYphoto011{height: 225px;width: 300px;
+	        margin:37px 0;
+			position: absolute;
+}
+
+#MYphoto012:hover{transform: scale(1.1);  
+              	  transition: all 0.5s ease 0s;
+}
+
+#photo012{height: 300px;width: 300px;
+		  display: inline-block;
+		  /*background-color: blue;*/
+		  margin: 0 15px;
+
+}
+
+#MYphoto012{height: 300px;width: 225px;
+	        margin:0 37px;
+			position: absolute;
+}
+
 #title2{/*background-color:#111111;*/
 		height:150px;
 
@@ -417,6 +486,18 @@
 	         animation: fade-in;  
                  animation-duration: 1s;  
                  -webkit-animation:fade-in 1s;
+
+}
+	
+		#title12{height:150px;width: 840px;
+	         margin: 0 auto;
+             	
+
+	         animation: fade-in;  
+                 animation-duration: 1s;  
+                 -webkit-animation:fade-in 1s;
+
+                 display: none;
 
 }
 }
