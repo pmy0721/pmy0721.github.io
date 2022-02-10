@@ -466,6 +466,8 @@
 	          animation: fade-in;  
               animation-duration: 3s;  
               -webkit-animation:fade-in 3s;
+	
+	      display: none;
 }
 
 #video001{height: 500px;width: 900px;
