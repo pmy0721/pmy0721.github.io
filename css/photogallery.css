@@ -491,15 +491,4 @@
 
 }
 	
-		#title12{height:150px;width: 840px;
-	         margin: 0 auto;
-             	
-
-	         animation: fade-in;  
-                 animation-duration: 1s;  
-                 -webkit-animation:fade-in 1s;
-
-                 display: none;
-
-}
 }
