@@ -479,7 +479,8 @@
 	        object-fit: fill;
 }
 
-#m_blank{display: none;}
+#blank{height:100px;
+	     background-color: #111111}
 
 @media screen and (max-device-width: 450px){
 	#navigation{visibility: hidden;}
@@ -492,7 +493,8 @@
                  -webkit-animation:fade-in 1s;
 
 }
-    #blank{display: none;}
-    #m_blank{display: block;}
+
+	#blank{height:450px;
+	     background-color: #111111}
 	
 }
