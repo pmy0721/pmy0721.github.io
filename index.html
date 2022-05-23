@@ -283,8 +283,32 @@
 			    pause_flag = 0;
 			    // playMusic();
 			    // playmusic = 1;
+				
+// 			    myMusic=document.getElementById("bgm1");
+// 			    play();
+				
 			    myMusic=document.getElementById("bgm1");
-			    play();
+
+			    if (pause_flag != 1){
+					x = Math.floor(Math.random()*MUSIC_NUM);
+
+					while(1){
+			        	if(solve.includes(x)){
+			        		x = Math.floor(Math.random()*MUSIC_NUM);
+			        	}else{
+			        		solve[num] = x;
+			        		num += 1
+			        		break;
+			        	}	
+                                        }
+
+					myMusic.src = music_list[x]
+			     }
+
+			    myMusic.play();
+			    // play();
+			    // playMusic();
+				// playmusic = 1;
 			}
 		
 
