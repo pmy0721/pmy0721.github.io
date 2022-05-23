@@ -32,7 +32,7 @@
 	</head>
 
 	<body> 
-		<audio id="bgm1" onended="nextMusic1()">
+		<audio id="bgm1" onended="randplay()">
 			<source src="./MYmusic/Afterglow-Ed Sheeran.mp3">
 			<!-- <source src="./MYmusic/You all over me-Tylor Swift.flac"> -->
 			<!-- <source src="./MYmusic/Back to December-Tylor Swift.flac"> -->
@@ -176,14 +176,47 @@
 		 //}
 
 		    var playmusic = 0;
+		    var pause_flag = 0;
 		    var num_music = 1;
-			var myMusic=document.getElementById("bgm1");
-			var myMusicImg = document.getElementById("playaudio");
+		    var solve = new Array();
+		    var num = 0
+		    var myMusic=document.getElementById("bgm1");
+	            var myMusicImg = document.getElementById("playaudio");
 			// myMusic.pause();
+		
+		    var music_list = [
+			"./MYmusic/Afterglow-Ed Sheeran.mp3",
+			"./MYmusic/You all over me-Tylor Swift.flac",
+			"./MYmusic/If I weren't me-Qian Jiangtao.flac",
+			"./MYmusic/When You Say Nothing At All-Ronan Keating.mp3",
+			"./MYmusic/Back to December-Tylor Swift.flac",
+			"./MYmusic/Rainbow-Kacey Musgraves.flac",
+			"./MYmusic/伟大的渺小-林俊杰.mp3",
+			"./MYmusic/No Turning Back-JJ Lin.mp3",
+			"./MYmusic/Easy On Me-Adele.mp3",
+			"./MYmusic/Shivers-Ed Sheeran.mp3"
+			]
+		        var MUSIC_NUM = 10
 
 			function playMusic()
 			{ 
-  				myMusic.play(); 
+				if (pause_flag != 1){
+					x = Math.floor(Math.random()*MUSIC_NUM);
+
+					while(1){
+						if(solve.includes(x)){
+							x = Math.floor(Math.random()*MUSIC_NUM);
+						}else{
+							solve[num] = x;
+							num += 1
+							break;
+						      }	
+					}
+
+					myMusic.src = music_list[x]
+			}	
+
+  				myMusic.play();
 			} 
 
 			function pauseMusic()
@@ -200,6 +233,7 @@
 						playmusic = 1;
 				}else{
 						myMusicImg.src = "./MYicon/music.png";
+						pause_flag = 1;
 						pauseMusic();
 						playmusic = 0;
 				}	
@@ -229,6 +263,14 @@
 					playmusic = 0;
 					num_music = 1;
 				}
+			}
+		
+			function randplay()
+			{
+			    playmusic = 0;
+			    pause_flag = 0;
+			    playMusic();
+		            playmusic = 1;
 			}
 		
 
