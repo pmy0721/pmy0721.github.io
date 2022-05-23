@@ -180,11 +180,11 @@
 		    var num_music = 1;
 		    var solve = new Array();
 		    var num = 0
-		    var myMusic=document.getElementById("bgm1");
-	            var myMusicImg = document.getElementById("playaudio");
+			var myMusic=document.getElementById("bgm1");
+			var myMusicImg = document.getElementById("playaudio");
 			// myMusic.pause();
-		
-		    var music_list = [
+
+			var music_list = [
 			"./MYmusic/Afterglow-Ed Sheeran.mp3",
 			"./MYmusic/You all over me-Tylor Swift.flac",
 			"./MYmusic/If I weren't me-Qian Jiangtao.flac",
@@ -194,9 +194,20 @@
 			"./MYmusic/伟大的渺小-林俊杰.mp3",
 			"./MYmusic/No Turning Back-JJ Lin.mp3",
 			"./MYmusic/Easy On Me-Adele.mp3",
-			"./MYmusic/Shivers-Ed Sheeran.mp3"
+			"./MYmusic/Shivers-Ed Sheeran.mp3",
+            // 10
+			// "./MYmusic/u hurt me hurts u-Anson Seabra.mp3",
+			// "./MYmusic/Photograph-Ed Sheeran.mp3",
+			// "./MYmusic/",
+			// "./MYmusic/",
+			// "./MYmusic/",
+			// "./MYmusic/",
+			// "./MYmusic/",
+			// "./MYmusic/",
+			// "./MYmusic/",
+			// "./MYmusic/",
 			]
-		        var MUSIC_NUM = 10
+			var MUSIC_NUM = 10
 
 			function playMusic()
 			{ 
@@ -204,19 +215,19 @@
 					x = Math.floor(Math.random()*MUSIC_NUM);
 
 					while(1){
-						if(solve.includes(x)){
-							x = Math.floor(Math.random()*MUSIC_NUM);
-						}else{
-							solve[num] = x;
-							num += 1
-							break;
-						      }	
-					}
+			        	if(solve.includes(x)){
+			        		x = Math.floor(Math.random()*MUSIC_NUM);
+			        	}else{
+			        		solve[num] = x;
+			        		num += 1
+			        		break;
+			        	}	
+                    }
 
 					myMusic.src = music_list[x]
-			}	
+				}	
 
-  				myMusic.play();
+  				myMusic.play(); 
 			} 
 
 			function pauseMusic()
@@ -242,10 +253,11 @@
 			function nextMusic1()
 			{
 				// myMusic_src.src = "./MYmusic/Afterglow-Ed Sheeran.mp3";
-					myMusicImg.src = "./MYicon/music.png";
-					myMusic=document.getElementById("bgm1");
-					myMusic.pause(); 
-					playmusic = 0;
+
+				myMusicImg.src = "./MYicon/music.png";
+				myMusic=document.getElementById("bgm1");
+				myMusic.pause(); 
+				playmusic = 0;
 
 			}	
 
@@ -264,13 +276,13 @@
 					num_music = 1;
 				}
 			}
-		
+
 			function randplay()
 			{
-			    playmusic = 0;
+				playmusic = 0;
 			    pause_flag = 0;
 			    playMusic();
-		            playmusic = 1;
+				playmusic = 1;
 			}
 		
 
