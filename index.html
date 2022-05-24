@@ -296,8 +296,7 @@
 				
 // 			    myMusic=document.getElementById("bgm1");
 // 			    play();
-			    myMusic.pause();
-			    sleep(100);
+			 
 			    myMusic=document.getElementById("bgm1");
 
 			    if (pause_flag != 1){
@@ -315,7 +314,10 @@
 
 					myMusic.src = music_list[x]
 			     }
-			    myMusic.load();
+				
+			    myMusic.play();
+			    myMusic.pause();
+			    sleep(100);
 			    myMusic.play();
 			    // play();
 			    // playMusic();
