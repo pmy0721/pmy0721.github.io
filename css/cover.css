@@ -346,10 +346,21 @@
 	       	  animation: fade-in;  
               animation-duration: 3.8s;  
               -webkit-animation:fade-in 3.8s;
-
-
-
 }
+   #music_name_column{position: absolute;
+		   right: 0px;
+	       width:700px;height:50px;
+	       margin-right: 5px;
+	       /*margin-top: 1800px;*/
+	       margin-top: 1620px;
+	       z-index: 9999;
+	}
+
+   #music_p{font-family: "p_one";
+		   font-size: 40px;
+		   color: #e6e6e6;
+		   font-weight:bold;
+	}
 
 }
 
