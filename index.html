@@ -208,6 +208,16 @@
 			// "./MYmusic/",
 			]
 			var MUSIC_NUM = 9
+			
+			function sleep(time){
+				 var timeStamp = new Date().getTime();
+				 var endTime = timeStamp + time;
+				 while(true){
+				 if (new Date().getTime() > endTime){
+				  return;
+				 } 
+				 }
+			}
 
 			function playMusic()
 			{ 
@@ -287,6 +297,7 @@
 // 			    myMusic=document.getElementById("bgm1");
 // 			    play();
 			    myMusic.pause();
+			    sleep(1000);
 			    myMusic=document.getElementById("bgm1");
 
 			    if (pause_flag != 1){
