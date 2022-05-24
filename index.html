@@ -67,7 +67,11 @@
 
 			</video> -->
 
-			<img src="./MYicon/music.png" id="playaudio" onclick="play()" alt="play audio">
+			<img src="./MYicon/apple-music.png" id="playaudio" onclick="play()" alt="play audio">
+			
+			<div id="music_name_column">
+                		<p id="music_p" align="right"></p>
+			</div>
 
 			<img src="./MYlogo/logo_test004.png" id="logo" alt="mylogo">
 
@@ -207,6 +211,20 @@
 			// "./MYmusic/",
 			// "./MYmusic/",
 			]
+			
+			var music_p_list = [
+			"Afterglow—Ed Sheeran",
+			"You all over me—Tylor Swift",
+			"如果我不是我—钱江涛",
+			"When You Say Nothing At All—Ronan Keating",
+			"Back to December—Tylor Swift",
+			"Rainbow—Kacey Musgraves",
+			"伟大的渺小—林俊杰",
+			"交换余生—林俊杰",
+			"Easy On Me—Adele",
+			"Shivers—Ed Sheeran"
+			]
+			
 			var MUSIC_NUM = 10
 			
 			function sleep(time){
@@ -237,6 +255,8 @@
 					myMusic.src = music_list[x]
 				}	
 
+				y = document.getElementById("music_p");	
+				y.innerHTML = music_p_list[x];
   				myMusic.play(); 
 			} 
 
@@ -314,6 +334,8 @@
 
 					myMusic.src = music_list[x]
 			     }
+			    y = document.getElementById("music_p");	
+			    y.innerHTML = music_p_list[x];
 				
 			    myMusic.play();
 			    myMusic.pause();
