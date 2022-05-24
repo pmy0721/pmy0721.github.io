@@ -264,6 +264,21 @@
             	/*filter:grayscale(100%); //背景灰度设置*/
 }
 
+#music_name_column{position: absolute;
+		   right: 0px;
+	       width:500px;height:25px;
+	       margin-right: 5px;
+	       /*margin-top: 1800px;*/
+	       margin-top: 690px;
+	       z-index: 9999;
+	}
+
+#music_p{font-family: "p_one";
+		   font-size: 18px;
+		   color: #e6e6e6;
+		   font-weight:bold;
+	}
+
 
 
 @media screen and (max-device-width: 450px) {
